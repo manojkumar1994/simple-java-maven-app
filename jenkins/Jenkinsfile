@@ -1,6 +1,6 @@
 pipeline {
     agent 
-    any test
+    agent test
     stages {
         stage('Build') {
             steps {
